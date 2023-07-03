@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
 * print_array - Prints n elements of an array of int, followed by a new line.
 * @a: The input array of integers.
