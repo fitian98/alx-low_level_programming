@@ -5,7 +5,7 @@
 * @dest: The destination buffer to copy the string to.
 * @src: The source string to be copied.
 *
-* Description: This function copies the string from the source buffer `src` to the
+* Description: This function copies the str from the buffer `src` to the
 * destination buffer `dest`, including the terminating null byte (`\0`).
 * It uses a `while` loop to iterate through each character of the source
 * string `src` and copies it to the corresponding position in the
@@ -28,5 +28,5 @@ i++;
 }
 
 dest[i] = '\0';
-return dest;
+return (dest);
 }
