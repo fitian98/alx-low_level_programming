@@ -19,7 +19,9 @@ char *ptr = dest;
 while (*dest != '\0')
 dest++;
 
-while (*src != '\0') {
+while (*src != '\0')
+{
+
 *dest = *src;
 dest++;
 src++;
